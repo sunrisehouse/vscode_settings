@@ -1,12 +1,14 @@
-{
-  // terminal
-  "terminal.integrated.profiles.windows":{
-      "Git Bash":{"path":"C:\\Program Files\\Git\\bin\\bash.exe"}
-  },
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  
-  // editor
+{  
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "editor.detectIndentation": false
+  "editor.detectIndentation": false,
+
+  "workbench.panel.defaultLocation": "right",
+
+  "terminal.integrated.profiles.windows":{
+    "Git Bash":{ "path":"${userHome}\\AppData\\Local\\Programs\\Git\\bin\\bash.exe" }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.fontFamily": "'Hack NFM', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16
 }
